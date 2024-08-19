@@ -1,5 +1,5 @@
 
-- [Demo Project](assets/image/Screenshot.png)
+- [Demo Project](../assets/image/Screenshot.png)
 
 - Developed by Sheyda Rajaee
 
