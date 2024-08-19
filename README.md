@@ -1,5 +1,5 @@
 
-- [Demo Project](assets/images/Screenshot.png)
+- [Demo Project](https://alikhazaeii.github.io/cann/)
 
 - Developed by Sheyda Rajaee
 
