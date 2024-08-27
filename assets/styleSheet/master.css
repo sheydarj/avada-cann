@@ -588,19 +588,20 @@
     width: 100%;
     padding: 60px 30px;
     background-color: #1e2926;
-    
+
     >.row {
         justify-content: space-evenly;
         display: flex;
-    
+
         >div {
-            
+
             width: 550;
             /* border: 1px solid white; */
             min-height: 40px;
 
             &:first-of-type {
                 width: 7in;
+
                 >div {
                     margin: 15px 0;
 
@@ -634,6 +635,7 @@
 
             &:last-of-type {
                 width: 7in;
+
                 >.row {
                     >* {
                         /* color: white; */
@@ -671,11 +673,56 @@
                     }
 
                     >p {
+                        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
                     }
                 }
-
             }
         }
+    }
+
+    >.box {
+        width: 150px;
+        height: 150px;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+
+        /* border: 1px solid red; */
+        >div {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+
+            &:first-of-type {
+                background-color: #9c7460;
+                border-radius: 73% 27% 27% 73% / 69% 71% 29% 31%;
+                animation: anime2 infinite alternate 2s;
+            }
+
+            &:last-of-type {
+                background-image: url(../images/me.PNG);
+                background-size: cover;
+                border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+                animation: anime1 infinite alternate 2s;
+
+            }
+
+
+        }
+
+    }
+}
+@keyframes anime1{
+    to{
+        border-radius: 73% 27% 27% 73% / 69% 71% 29% 31% ;
+    }
+
+}
+@keyframes anime2{
+    to{
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
     }
 }
